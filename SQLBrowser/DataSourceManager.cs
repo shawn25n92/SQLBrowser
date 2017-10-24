@@ -8,6 +8,11 @@ namespace SQLBrowser
 {
     public static class DataSourceManager
     {
-        
+        public static StatusObject AddDataSource()
+        {
+            StatusObject SO = new StatusObject();
+
+            return SO;
+        }
     }
 }
